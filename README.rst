@@ -46,7 +46,7 @@ is usually the protocol (http or https) and the domain your live site::
 .. note::
     Earlier versions of this library used ``LOCALDEVSTORAGE_HTTP_FALLBACK_URL``.
     While this still works, it is recommended to update your settings to the
-    new name. ``LOCALDEVSTORAGE_HTTP_FALLBACK_URL`` will be removed in a future
+    new name. ``LOCALDEVSTORAGE_HTTP_FALLBACK_DOMAIN`` will be removed in a future
     version.
 
 If your server is secured with HTTP basic auth, you can provide a username and
